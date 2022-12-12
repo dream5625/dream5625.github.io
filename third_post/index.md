@@ -1,48 +1,61 @@
-# Linux系统下的git安装以及仓库配置
+# Socket编程代码
 
 
 
 
-# __git的安装以及仓库配置__
+# __Socket编程代码__
 
 
-## __Linux系统下的git安装以及仓库配置__
+## __客户端与服务端的创建__
 
 ### 命令代码：
 
-    Sudo apt-get install git
+    vim serveric.c
+    
+    vim client.c
 
-<img src="/1.jpeg">
+<img src="/6.jpeg">
 
 _________________
 
 
-## __创建git仓库及其配置__
+### __利用g++编译__
 
 ### 命令代码：
 
-    git init
+    g++ serveric.c -o serveric.out
 
-    git log
+    g++ client.c -o client.out
 
-<img src="/2.jpeg">
-
-<img src="/3.jpeg">
-
-### 上传版本回退
-
-    git reset --hard HEAD^
-
-<img src="/4.jpeg">
-
-<img src="/5.jpeg">
+<img src="/12.jpeg">
 
 
-### 查看操作日志
+### 等待连接
 
-    git reflog
 
-<img src="/5.jpeg">
+<img src="/13.jpeg">
+
+
+### 连接成功页面
+
+<img src="/14.jpeg">
+
+<img src="/15.jpeg">
+
+___________
+
+
+## __Socket网站互通部分代码截图__
+
+### 服务端
+
+<img src="/16.jpeg">
+
+<img src="/17.jpeg">
+
+### 客户端
+
+<img src="/18.jpeg">
 
 ___________
 

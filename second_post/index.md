@@ -1,48 +1,38 @@
-# Linux系统下的git安装以及仓库配置
+# Markdown网站编写
 
 
 
 
-# __git的安装以及仓库配置__
+# __Markdown网站编写__
 
 
-## __Linux系统下的git安装以及仓库配置__
+## __hugo安装配置__
 
 ### 命令代码：
 
-    Sudo apt-get install git
+    Sudo apt-get install hugo
 
-<img src="/1.jpeg">
+<img src="/7.jpeg">
 
 _________________
 
 
-## __创建git仓库及其配置__
+## __Markdown网站编写__
 
-### 命令代码：
+### 模板：
 
-    git init
+<img src="/9.jpeg">
 
-    git log
+<img src="/10.jpeg">
 
-<img src="/2.jpeg">
+___________
 
-<img src="/3.jpeg">
-
-### 上传版本回退
-
-    git reset --hard HEAD^
-
-<img src="/4.jpeg">
-
-<img src="/5.jpeg">
+### 完成网站编写
 
 
-### 查看操作日志
+<img src="/11.jpeg">
 
-    git reflog
 
-<img src="/5.jpeg">
 
 ___________
 
